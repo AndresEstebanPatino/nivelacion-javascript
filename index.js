@@ -75,7 +75,7 @@ console.log(user)
 
 */
 
-const getName2 = () => {
+/*const getName2 = () => {
     let suma = 1+1 
     console.log(suma)
 }
@@ -94,3 +94,21 @@ function getNumer(){
     console.log(5)
 }
 
+*/
+
+/*
+
+const getValueInput = () =>{
+
+    let inputValue = document.getElementById("input").value; 
+    document.getElementById("valueInput").innerHTML = inputValue; 
+  
+}
+
+*/
+
+const getValueInput = () =>{
+    let inputValue = document.getElementById("domTextElement").value; 
+    document.getElementById("valueInput").innerHTML = `El valor del input es ${inputValue}` ; 
+  }
+  
